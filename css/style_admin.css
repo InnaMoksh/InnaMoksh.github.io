@@ -1,0 +1,135 @@
+﻿html, body {height:100%;}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color:#fff;
+	width:100%;
+	min-width:750px;
+	min-height:600px;
+}
+
+#content a {font-size:11px;	color:#e09400;}
+#content a:hover {color: #cb8060;}
+
+#bdescr {
+	font-size: 12px;
+	position:absolute;
+	top:70px;
+	left:15px;
+	width:330px;
+	height: 140px;
+	background-image:url(../images/b.jpg);
+}
+
+.tbrdr { background-image:url(../images/top_b.jpg); height:10px; overflow:hidden;}
+.mbrdr { background-image:url(../images/middle_b.jpg);
+	background-repeat:repeat-y;
+	padding: 5px 15px 5px 15px;
+	width:300px !important;
+	font-size:12px;
+}
+.bbrdr { background-image:url(../images/bottom_b.jpg);	height:11px;}
+
+#wrap {
+	position: relative;
+	background-image:url(../images/bg.jpg);
+	background-repeat:repeat-y;
+	width:750px;
+	margin: 0px auto;
+}
+
+#footer {
+	height:60px;
+	width:750px;
+	background-color:#ffffff;
+	clear:both;
+	border-top: solid 1px #f5cc6e;
+}
+
+#footer a{
+	text-decoration:none;
+	color:#000000;
+	font-size: 12px;
+	padding: 5px;
+}
+#footer a:hover{
+	text-decoration:underline;
+}
+
+#footer div {
+	font-size:10px;
+	margin-left:20px;
+}
+
+#footer div.bmenu {
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-left:15px;
+}
+
+#sidebar {
+	float:left;
+	padding-left:10px;
+	padding-top:5px;
+	padding-right:10px;
+	width: 160px;
+	background:url(../images/menu-bg.jpg) no-repeat;
+}
+
+#sidebar a {
+	color: #005400;
+	font-style: italic;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:12px;
+}
+#sidebar a:hover {
+	text-decoration:underline;
+}
+
+#sidebar li {
+	text-align:right;
+	padding-right:10px;
+	margin-top:1px;
+	margin-bottom:9px;
+}
+
+#content {
+	width:540px;
+	float:right;
+	padding: 10px;
+}
+
+#header {
+	width:750px;
+	height:230px;
+	background:url(../images/image.jpg);
+}
+
+.headtitle {
+	position:absolute;
+	top:13px;
+	left:20px;
+	font-family: "Trebuchet MS";
+	font-size: 26px;
+	font-style: italic;
+	color: #005400;
+}
+
+h1 {
+	font-size:14px;
+	margin-bottom:7px;
+	text-transform: uppercase;
+	font-weight:bold;
+}
+
+#content p {
+	font-size:11px;
+	margin-top:7px;
+	margin-bottom:7px;
+}
+
+.red {
+	border: red 1px solid;
+} 

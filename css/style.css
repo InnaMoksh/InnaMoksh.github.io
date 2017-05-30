@@ -1,0 +1,138 @@
+﻿html, body {height:100%;}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color:#fff;
+	width:100%;
+	min-width:750px;
+	min-height:600px;
+}
+
+#content a {font-size:11px;	color:#60a9cb;}
+#content a:hover {color: #b1413a;}
+
+#bdescr {
+	font-size: 12px;
+	position:absolute;
+	top:70px;
+	left:15px;
+	width:330px;
+	height: 140px;
+	background-image:url(../images/b.jpg);
+}
+
+.tbrdr { background-image:url(../images/top_b.jpg); height:10px; overflow:hidden;}
+.mbrdr { background-image:url(../images/middle_b.jpg);
+	background-repeat:repeat-y;
+	padding: 5px 15px 5px 15px;
+	width:300px !important;
+	font-size:12px;
+}
+.bbrdr { background-image:url(../images/bottom_b.jpg);	height:11px;}
+
+#wrap {
+	position: relative;
+	background-image:url(../images/bg.jpg);
+	background-repeat:repeat-y;
+	width:750px;
+	margin: 0px auto;
+}
+
+#footer {
+	height:60px;
+	width:750px;
+	background-color:#f9edd4;
+	clear:both;
+	border-top: solid 1px #b1413a;
+}
+
+#footer a{
+	text-decoration:none;
+	color:#4e81e7;
+	font-size: 12px;
+	font-weight:lighter;
+	padding: 5px;
+}
+#footer a:hover{
+	text-decoration:underline;
+}
+
+#footer div {
+	font-size:10px;
+	margin-left:20px;
+}
+
+#footer div.bmenu {
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-left:15px;
+}
+
+#sidebar {
+	float:left;
+	padding-left:10px;
+	padding-top:5px;
+	padding-right:10px;
+	width: 160px;
+	background:url(../images/menu-bg.jpg) no-repeat;
+}
+
+#sidebar a {
+	color: #4e81e7;
+	font-style: normal;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:13px;
+	
+}
+#sidebar a:hover {
+	text-decoration:underline;
+color: #b1413a;}
+
+#sidebar li {
+	text-align:right;
+	padding-right:10px;
+	margin-top:1px;
+	margin-bottom:9px;
+}
+
+#content {
+	width:540px;
+	float:right;
+	padding: 10px;
+}
+
+#header {
+	width:750px;
+	height:230px;
+	background:url(../images/image.jpg);
+}
+
+.headtitle {
+	position:absolute;
+	top:13px;
+	left:20px;
+	font-family: "Trebuchet MS";
+	font-size: 26px;
+	font-style: italic;
+	color:#4e81e7;
+}
+
+h1 {
+	font-size:15px;
+	margin-bottom:7px;
+	text-transform: uppercase;
+	font-weight:Bold;
+	color:#8d1907
+}
+
+#content p {
+	font-size:13px;
+	margin-top:9px;
+	margin-bottom:9px;
+}
+
+.red {
+	border: #b1413a 1px solid;
+} 
